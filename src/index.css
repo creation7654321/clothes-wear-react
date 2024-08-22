@@ -1,5 +1,8 @@
 *{
   font-family: "Poppins", system-ui;
   margin: 0;
-  padding:0;
+  /* padding:0; */
+}
+body{
+  margin: 0;
 }
