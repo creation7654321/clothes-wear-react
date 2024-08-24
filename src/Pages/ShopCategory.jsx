@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import './CSS/ShopCategory.css'
 
-export default function ShopCategory() {
+
+export default function ShopCategory(props) {
+  
+ 
   return (
-    <div>ShopCategory</div>
+    <div className="shop-category">
+        
+    </div>
+
   )
 }
