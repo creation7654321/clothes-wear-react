@@ -27,12 +27,9 @@ export default function App() {
             </Route>
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/login' element={<LoginSignup/>}/>
-
           </Routes>
           <Footer />
-
         </BrowserRouter>
-     
     </div>
   )
 }
