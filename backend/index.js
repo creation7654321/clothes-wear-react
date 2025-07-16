@@ -72,6 +72,8 @@ const Product = mongoose.model("Product",{
 })
 
 app.post('/addproduct',async(req,res)=>{
+
+    
     const product = new Product({
         id:req.body.id,
         name:req.body.name,
